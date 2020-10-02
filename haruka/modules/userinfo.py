@@ -96,7 +96,7 @@ def set_about_bio(bot: Bot, update: Update):
         if len(bio) == 2:
             if len(bio[1]) < MAX_MESSAGE_LENGTH // 4:
                 sql.set_user_bio(user_id, bio[1])
-                message.reply_text("Updated {}'s bio!".format(repl_message.from_user.first_name))
+                message.reply_text("Bio {} diperbarui!".format(repl_message.from_user.first_name))
             else:
                 message.reply_text(
                     "A bio needs to be under {} characters! You tried to set {}.".format(
