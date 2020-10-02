@@ -79,16 +79,16 @@ def set_about_bio(bot: Bot, update: Update):
         repl_message = message.reply_to_message
         user_id = repl_message.from_user.id
         if user_id == message.from_user.id:
-            message.reply_text("Ha, you can't set your own bio! You're at the mercy of others here...")
+            message.reply_text("Ha, anda tidak bisa mengatur bioa anda sendiri! Anda harus minta bantuan orang lain disini...")
             return
         elif user_id == bot.id and sender.id not in SUDO_USERS:
-            message.reply_text("Erm... yeah, I only trust sudo users to set my bio LMAO.")
+            message.reply_text("Erm... yeah, Saya hanya percaya pengguna sudo untuk mengatur bio saya.")
             return
         elif user_id in SUDO_USERS and sender.id not in SUDO_USERS:
-            message.reply_text("Erm... yeah, I only trust sudo users to set sudo users bio LMAO.")
+            message.reply_text("Erm... yeah, Saya hanya percaya pengguna sudo untuk mengatur bio saya.")
             return
         elif user_id == OWNER_ID:
-            message.reply_text("You ain't setting my master bio LMAO.")
+            message.reply_text("Anda tidak bisa mengatuer bio Boss saya!")
             return
 
         text = message.text
@@ -109,11 +109,11 @@ def __user_info__(user_id, chat_id):
     bio = html.escape(sql.get_user_bio(user_id) or "")
     me = html.escape(sql.get_user_me_info(user_id) or "")
     if bio and me:
-        return "<b>About user:</b>\n{me}\n<b>What others say:</b>\n{bio}".format(me=me, bio=bio)
+        return "<b>Tentang pengguna:</b>\n{me}\n<b>apa yang dikatakan orang lain:</b>\n{bio}".format(me=me, bio=bio)
     elif bio:
-        return "<b>What others say:</b>\n{bio}\n".format(me=me, bio=bio)
+        return "<b>Apa yang dikatakan orang lain:</b>\n{bio}\n".format(me=me, bio=bio)
     elif me:
-        return "<b>About user:</b>\n{me}""".format(me=me, bio=bio)
+        return "<b>Tentang pengguna:</b>\n{me}""".format(me=me, bio=bio)
     else:
         return ""
 
