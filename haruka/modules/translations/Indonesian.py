@@ -267,9 +267,9 @@ yang membuatmu tertarik.""",
     "\nUsername: @{}": "\nUsername: @{}",
     "\nPermanent user link: {}": "\nTautan Pengguna: {}",
     "\n\nThis person is my owner - I would never do anything against them!":
-        "\n\nOrang ini adalah pemilik saya- Saya harap jangan lakukan apapun padanya!",
+        "\n\nOrang ini adalah pemilik saya - Saya harap jangan lakukan apapun padanya!",
     "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.":
-        "\nOrang ini termasuk salah satu pengguna sudo saya! Hampir setara dengan pemilik saya- jadi lihat itu.",
+        "\nOrang ini termasuk salah satu pengguna sudo saya! Hampir setara dengan pemilik saya - jadi perhatikan itu.",
     "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.":
         "\nOrang ini salah satu pengguna dukungan saya! Tidak seperti pengguna sudo, tapi bisa melakukan gban kepada anda.",
     "\nThis person has been whitelisted! That means I'm not allowed to ban/kick them.":
