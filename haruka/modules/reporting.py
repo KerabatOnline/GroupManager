@@ -69,7 +69,7 @@ def report(bot: Bot, update: Update) -> str:
 
         if chat.username and chat.type == Chat.SUPERGROUP:
             msg = "<b>{}:</b>" \
-                  "\n<b>Reported user:</b> {} (<code>{}</code>)" \
+                  "\n<b>Pengg:</b> {} (<code>{}</code>)" \
                   "\n<b>Reported by:</b> {} (<code>{}</code>)".format(html.escape(chat.title),
                                                                       mention_html(
                                                                           reported_user.id,
