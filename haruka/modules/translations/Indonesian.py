@@ -125,7 +125,7 @@ SLAP_TEMPLATES = (
     "{user1} mulai menampar {user2} dengan {item}.",
     "{user1} menahan {user2} dan berulangkali {hits} dengan {item}.",
     "{user1} meraih {item} dan {hits} {user2} dengan itu.",
-    "{user1} mengikat {user2} ke kursi dan {throws} sebuah {item} pada mereka.",
+    "{user1} mengikat {user2} ke kursi dan {throws} sebuah {item} padanya.",
     "{user1} memberi pertolongan untuk membantu {user2} belajar berenang di lava."
 )
 
