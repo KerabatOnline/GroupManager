@@ -172,7 +172,7 @@ HIT = (
     "memukul",
     "memukul",
     "menampar",
-    "menjatuhkan",
+    "menampol",
     "memukul",
 )
 
@@ -255,27 +255,27 @@ yang membuatmu tertarik.""",
 
 
     "The original sender, {}, has an ID of `{}`.\nThe forwarder, {}, has an ID of `{}`.":
-        "The original sender, {}, has an ID of `{}`.\nThe forwarder, {}, has an ID of `{}`.",
-    "{}'s id is `{}`.": "{}'s id is `{}`.",
-    "Your id is `{}`.": "Your id is `{}`.",
-    "This group's id is `{}`.": "This group's id is `{}`.",
+        "Pengirim aslinya, {}, memilik ID `{}`.\nPenerus pesan, {}, memilik ID `{}`.",
+    "{}'s id is `{}`.": "{} ID adalah `{}`.",
+    "Your id is `{}`.": "ID anda adalah `{}`.",
+    "This group's id is `{}`.": "ID grup ini adalah `{}`.",
 
-    "I can't extract a user from this.": "I can't extract a user from this.",
-    "<b>User info</b>:": "<b>User info</b>:",
-    "\nFirst Name: {}": "\nFirst Name: {}",
-    "\nLast Name: {}": "\nLast Name: {}",
+    "I can't extract a user from this.": "Saya tidak bisa mengekstrak pengguna dari sini.",
+    "<b>User info</b>:": "<b>Info Pengguna</b>:",
+    "\nFirst Name: {}": "\nNama Depan: {}",
+    "\nLast Name: {}": "\nNama Belakang: {}",
     "\nUsername: @{}": "\nUsername: @{}",
-    "\nPermanent user link: {}": "\nPermanent user link: {}",
+    "\nPermanent user link: {}": "\nTautan Pengguna: {}",
     "\n\nThis person is my owner - I would never do anything against them!":
-        "\n\nThis person is my owner - I would never do anything against them!",
+        "\n\nOrang ini adalah pemilik saya- Saya harap jangan lakukan apapun padanya!",
     "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.":
-        "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.",
+        "\nOrang ini termasuk salah satu pengguna sudo saya! Hampir setara dengan pemilik saya- jadi lihat itu.",
     "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.":
-        "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.",
+        "\nOrang ini salah satu pengguna dukungan saya! Tidak seperti pengguna sudo, tapi bisa melakukan gban kepada anda.",
     "\nThis person has been whitelisted! That means I'm not allowed to ban/kick them.":
-        "\nThis person has been whitelisted! That means I'm not allowed to ban/kick them.",
+        "\nOrang ini termasuk di daftar putih! Itu artinya saya tidak bisa untuk melarang/menendang dia dari grup.",
 
-    "Its always banhammer time for me!": "Its always banhammer time for me!",
+    "Its always banhammer time for me!": "Itu selalu dilarang untuk saya!",
 
     "It's {} in {}": "It's {} in {}",
 
