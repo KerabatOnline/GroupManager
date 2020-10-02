@@ -123,7 +123,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             if args[0].lower() == "help":
                 send_help(update.effective_chat.id, tld(chat.id, "send-help").format(
                      dispatcher.bot.first_name, "" if not ALLOW_EXCL else tld(
-                         chat.id, "\nAll commands can either be used with `/` or `!`.\n"
+                         chat.id, "\nSemua perintah menggunakan `/` atau `!`.\n"
                              )))
 
             elif args[0].lower().startswith("stngs_"):
@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("I'm alive")
+        update.effective_message.reply_text("Saya aktif")
 
 def send_start(bot, update):
     #Try to remove old message
@@ -172,9 +172,9 @@ def control_panel(bot, update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("Contact me in PM to access the control panel.",
+        update.effective_message.reply_text("Hubungi saya di PM untuk mengakses panel kontrol.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="Control Panel",
+                                                [[InlineKeyboardButton(text="Panel Kontrol",
                                                                        url=f"t.me/{bot.username}?start=controlpanel")]]))
         return
 
@@ -193,9 +193,9 @@ def control_panel(bot, update):
         M_match = "ThaNos is the best bot" #LMAO, don't uncomment
 
     if M_match:
-        text = "*Control panel* 🛠"
+        text = "*Panel Kontrol* 🛠"
 
-        keyboard = [[InlineKeyboardButton(text="👤 My settings", callback_data="cntrl_panel_U(1)")]]
+        keyboard = [[InlineKeyboardButton(text="👤 Pengaturan saya", callback_data="cntrl_panel_U(1)")]]
 
         #Show connected chat and add chat settings button
         conn = connected(bot, update, chat, user.id, need_admin=False)
@@ -207,17 +207,17 @@ def control_panel(bot, update):
             #If user admin
             member = chatG.get_member(user.id)
             if member.status in ('administrator', 'creator'):
-                text += f"\nConnected chat - *{chatG.title}* (you {member.status})"
+                text += f"\nGrup terhubung - *{chatG.title}* (you {member.status})"
                 keyboard += [[InlineKeyboardButton(text="👥 Group settings", callback_data="cntrl_panel_G_back")]]
             elif user.id in SUDO_USERS:
-                text += f"\nConnected chat - *{chatG.title}* (you sudo)"
+                text += f"\nGruo terhubung- *{chatG.title}* (you sudo)"
                 keyboard += [[InlineKeyboardButton(text="👥 Group settings (SUDO)", callback_data="cntrl_panel_G_back")]]
             else:
-                text += f"\nConnected chat - *{chatG.title}* (you aren't an admin!)"
+                text += f"\nGrup terhubung- *{chatG.title}* (you aren't an admin!)"
         else:
-            text += "\nNo chat connected!"
+            text += "\nTidak ada grup yang terhubung!"
 
-        keyboard += [[InlineKeyboardButton(text="Back", callback_data="bot_start")]]
+        keyboard += [[InlineKeyboardButton(text="Kembali", callback_data="bot_start")]]
 
         update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
