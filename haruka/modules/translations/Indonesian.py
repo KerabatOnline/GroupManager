@@ -201,7 +201,7 @@ Ini akan membuat dua tombol pada satu baris, bukan satu tombol per baris.
 IndonesianStrings = {
     "send-start": """Hi {}, nama saya {}! Jika Kamu memiliki pertanyaan tentang cara menggunakan saya, baca /help.
 
-Saya adalah bot manajer grup yang dikelola oleh [orang ini](tg://user?Id={654839744}). Saya adalah [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
+Saya adalah bot manajer grup yang dikelola oleh [orang ini](tg://user?Id={746208169}). Saya adalah [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
 Saya dibangun di python3, menggunakan \
 python-telegram-bot library, dan saya sepenuhnya opensource - Kamu dapat menemukan apa yang membuat saya\
 [disini](https://github.com/peaktogoo/HarukaAya))!
@@ -298,29 +298,29 @@ yang membuatmu tertarik.""",
 [Botón2](buttonurl://google.com:same)""",
 
 #Admin
-"How am I meant to promote someone that's already an admin?": "How am I meant to promote someone that's already an admin?",
-"I can't promote myself! Get an admin to do it for me.": "I can't promote myself! Get an admin to do it for me.",
-"Successfully promoted in *{}*!": "Successfully promoted in *{}*!",
+"How am I meant to promote someone that's already an admin?": "Bagaimana maksudnya mem-promote orang yang sudah menjadi admin?",
+"I can't promote myself! Get an admin to do it for me.": "Saya tidak bisa mem-promote diri saya sendiri! Suruh admin lain melakukannya.",
+"Successfully promoted in *{}*!": "Berhasil di naikkan jabatannya di *{}*!",
 
-"This person CREATED the chat, how would I demote them?": "This person CREATED the chat, how would I demote them?",
-"Can't demote what wasn't promoted!": "Can't demote what wasn't promoted!",
-"I can't demote myself!": "I can't demote myself!",
-"Successfully demoted in *{}*!": "Successfully demoted in *{}*!",
+"This person CREATED the chat, how would I demote them?": "Orang ini PEMILIK grup ini, bagaimana caranya saya menurunkan dia?",
+"Can't demote what wasn't promoted!": "Tidak bisa men-demote apa yang belum di-promote!",
+"I can't demote myself!": "Saya tidak bisa men-demote diri sendiri!",
+"Successfully demoted in *{}*!": "Sukses menurunkan jabatannya di *{}*!",
 "Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
-"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!",
+"Tidak bisa men-demote. Mungkin saya bukan admin, atau pengguna di-promote oleh admin lain, Jadi saya tidak bisa melakukan itu!",
 
-"I don't have access to the invite link, try changing my permissions!": "I don't have access to the invite link, try changing my permissions!",
-"I can only give you invite links for supergroups and channels, sorry!": "I can only give you invite links for supergroups and channels, sorry!",
+"I don't have access to the invite link, try changing my permissions!": "Saya tidak punya akses untuk mengundang lewat tautan, coba ganti izin saya!",
+"I can only give you invite links for supergroups and channels, sorry!": "Saya hanya bisa memberi tautan undangan untuk supergroups dan channel, maaf!",
 
-"Admins in": "Admins in",
-"this chat": "this chat",
-" (Creator)": " (Creator)",
+"Admins in": "Staff di",
+"this chat": "grup ini",
+" (Creator)": " (Pemilik)",
 
 #AFK
-"{} is now AFK!": "{} is now AFK!",
-"{} is no longer AFK!": "{} is no longer AFK!",
-"{} is AFK!": "{} is AFK!",
-"{} is AFK! says its because of: \n{}": "{} is AFK! says its because of: \n{}",
+"{} is now AFK!": "{} sekarang AFK!",
+"{} is no longer AFK!": "{} sudah tidak AFK!",
+"{} is AFK!": "{} sedang AFK!",
+"{} is AFK! says its because of: \n{}": "{} sedang AFK! alasannya: \n{}",
 
 #Antiflood
 "I like to leave the flooding to natural disasters. But you, you were just a disappointment. Get out.":
@@ -439,40 +439,40 @@ yang membuatmu tertarik.""",
 
     "Channel has been unlinked from {}": "Channel has been unlinked from {}",
     "Log channel has been un-set.": "Log channel has been un-set.",
-    "No log channel has been set yet!": "No log channel has been set yet!",
+    "No log channel has been set yet!": "Tidak ada channel yang terhubung!",
 
 #Users
     "I've seen them in <code>{}</code> chats in total.":
-        "I've seen them in <code>{}</code> chats in total.",
+        "Saya bisa melihat dia di <code>{}</code> grup total.",
     "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.":
-        "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.",
+        "Saya bisa melihat dia di... Wow. Apakah dia penguntit? Dia ada disemua tempat yang sama dengan saya... oh. Ini memang saya, wkwkwk.",
 
 #Msg_deleting
     "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.":
-        "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.",
-    "Purge complete.": "Purge complete.",
+        "Tidak bisa menghapus semua pesan. Pesan mungkin sudah lama, saya mungkin tidak memilik hak menghapus, atau mungkin bukan supergroup.",
+    "Purge complete.": "Pembersihan selesai.",
     "Reply to a message to select where to start purging from.":
-        "Reply to a message to select where to start purging from.",
-    "Whadya want to delete?": "Whadya want to delete?",
+        "Balas pesan untuk memilih membersihkan dari situ.",
+    "Whadya want to delete?": "Apa yang mau dibersihkan?",
 
 #Muting
     "You'll need to either give me a username to mute, or reply to someone to be muted.":
-        "You'll need to either give me a username to mute, or reply to someone to be muted.",
-    "I'm not muting myself!": "I'm not muting myself!",
-    "Afraid I can't stop an admin from talking!": "Afraid I can't stop an admin from talking!",
+        "Anda harus memberi saya username untuk membisukan, atau balas pengguna yang ingin dibisukan.",
+    "I'm not muting myself!": "Saya tidak bisa membisukan diri sendiri!",
+    "Afraid I can't stop an admin from talking!": "Saya takut untuk melarang admin berhenti berbicara!",
     "You'll need to either give me a username to unmute, or reply to someone to be unmuted.":
-        "You'll need to either give me a username to unmute, or reply to someone to be unmuted.",
-    "This user already has the right to speak in {}.": "This user already has the right to speak in {}.",
-    "Yep, {} can start talking again in {}!": "Yep, {} can start talking again in {}!",
+        "Anda harus memberi saya username untuk men-suarakan, atau balas pengguna yang ingin disuarakan.",
+    "This user already has the right to speak in {}.": "Pengguna ini telah disuarakan di {}.",
+    "Yep, {} can start talking again in {}!": "Yeahh, {} sudah bisa bersuara {}!",
     "This user isn't even in the chat, unmuting them won't make them talk more than they already do!":
         "This user isn't even in the chat, unmuting them won't make them talk more than they already do!",
-    "I really wish I could mute admins...": "I really wish I could mute admins...",
-    "I'm not gonna MUTE myself, are you crazy?" : "I'm not gonna MUTE myself, are you crazy?",
+    "I really wish I could mute admins...": "Saya berharap untuk bisa membisukan admin...",
+    "I'm not gonna MUTE myself, are you crazy?" : "Saya tidak bisa MEMBISUKAN diru sendiri, anda gila?",
     "You haven't specified a time to mute this user for!":
-        "You haven't specified a time to mute this user for!",
-    "Muted for {} in {}!": "Muted for {} in {}!",
-    "This user is already muted in {}!": "This user is already muted in {}!",
-    "Well damn, I can't mute that user.": "Well damn, I can't mute that user.",
+        "Anda tidak memberikan waktu yang spesifik untuk membisukan pengguna!",
+    "Muted for {} in {}!": "Dibisukan selama {} di {}!",
+    "This user is already muted in {}!": "Pengguna ini telah dibisukan di{}!",
+    "Well damn, I can't mute that user.": "Sial. Saya tidak bisa membisukan pengguna itu",
 
     "You'll need to either give me a username to restrict, or reply to someone to be restricted.":
         "You'll need to either give me a username to restrict, or reply to someone to be restricted.",
@@ -499,12 +499,12 @@ yang membuatmu tertarik.""",
     "Restricted for {} in {}!": "Restricted for {} in {}!",
 
 #Notes
-    "Get rekt": "Get rekt.",
-    "Invalid Chat ID provided!": "Invalid Chat ID provided!", #Connections 
-    "You don't seem to be referring to a user.": "You don't seem to be referring to a user.", #Admin, Bans, Muting
-    "I can't seem to find this user": "I can't seem to find this user", #Bans, Muting
-    "Yes": "Yes", #Antispam
-    "No": "No", #Antispam
+    "Get rekt": "Lurus.",
+    "Invalid Chat ID provided!": "Penyedia obrolan tidak valid!", #Connections 
+    "You don't seem to be referring to a user.": "Anda tidak bisa melihat yang mengacu pada pengguna.", #Admin, Bans, Muting
+    "I can't seem to find this user": "Saya tidak bisa menemukan pengguna ini", #Bans, Muting
+    "Yes": "Ya", #Antispam
+    "No": "Tidak", #Antispam
 
 #__main__
     #Module names
